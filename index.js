@@ -1,3 +1,4 @@
+// Lili checked it alreday 12/02/2021.
 function fn(...c) {
     if (!c.every((a) => Number.isNumber(a)))
       throw "All arguments must be numbers.";

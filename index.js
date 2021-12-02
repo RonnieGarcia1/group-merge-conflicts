@@ -16,6 +16,11 @@ function isNumbers(...array) {
 
   }
   
+
+  fn(1, 2, 3); //> 6
+  fn(10, "B", 20); //> error All arguments must be numbers.
+  //> looks good !
   isNumbers(1, 2, 3); //> 6
   isNumbers(10, "B", 20); //> error All arguments must be numbers.
   // 
+
